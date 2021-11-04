@@ -1,0 +1,37 @@
+ul.theList {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+ul.theList li {
+	width: 250px;
+	padding: 0 20px;
+	border: 1px solid #000;
+	margin: 1px;
+	font-family: serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	color: darkslategrey;
+}
+
+ul.theList li p.cityName {
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 5px;
+	color: #000;
+}
+
+
+ul.theList li span {
+	font-size: 16px;
+	color: #000;
+	font-weight: 900;
+}
+
+ul.theList li:hover {
+	background-color: lightgrey;
+	color: #000;
+	cursor: pointer;
+}
